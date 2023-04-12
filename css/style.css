@@ -58,3 +58,116 @@
     height: 208px;
     margin: 7px auto 50px;
 }
+
+/* happy start */
+.Happy {
+    position: relative;
+}
+
+.happy_wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.happy_in {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.happy_text {
+    max-width: 448px;
+    height: 100px;
+    margin: 0 auto 20px;
+}
+
+.happy_text h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.happy_tittle {
+    max-width: 555px;
+    height: 60px;
+    margin: 0 auto 60px;
+}
+
+.happy_tittle p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.slider_in {
+    max-width: 1300px;
+    margin: 0 auto 83px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.slider_card {
+    border: 2px solid#ddd;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.slider_card_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.slider_card_number {
+    display: flex;
+}
+
+.slider_card_number h4 {
+    margin-right: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.slider_card p {
+    max-width: 340px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.checkbox {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox_left input {
+    margin: 5px;
+}
+
+.checkbox_right svg {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    margin-left: 10px;
+}
+
+
+svg:hover path{
+    fill: #fff;
+    
+}
+
+.icon_right {
+    transform: rotate(180deg);
+}
